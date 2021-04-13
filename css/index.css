@@ -1,0 +1,21 @@
+
+.carousel-item{
+    height: 660px;     
+
+}
+.carousel-item img{
+    height: 660px;    
+
+}
+
+.biografia {
+    justify-content: space-around;
+}
+
+.imgperfil{
+    margin-left: 30px ;
+}
+.imgsobre {
+   width: 700px;
+   margin-right: 30px;
+}

@@ -1,0 +1,41 @@
+body {
+    background-color: #393e46;
+}
+.moldura{
+    background-color: rgba(255, 255, 255, 0.26);
+    
+}
+
+.loggo {
+    width: 90px;
+    height: 60px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family:'josefin Sans', sans-serif; 
+    font-size: 24px  ;
+}
+
+nav a:hover{
+    color: white;
+}
+
+.form-control {
+    border-color: black;
+    width: 150px ;
+   
+}
+
+.btn {
+    background-color: #149588;
+    color: white;
+    border-color: white;
+}
+
+.btn:hover{
+color: white;
+background-color: rgb(43, 182, 182);
+border-color: white;
+}
