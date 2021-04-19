@@ -15,10 +15,15 @@
 
 .card{
     align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    box-shadow: white 5px 5px 5px;
+    color: white;
+    
 }
 .fa-camera-retro{
     font-size: 65px;
     margin-bottom: 20px;
+    color: #149588;
    
 }
 
