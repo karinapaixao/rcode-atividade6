@@ -1,0 +1,29 @@
+.text-center {
+    color:#149588;
+
+}
+
+.servicos{
+    margin-top: 9rem;
+}
+
+.titulo{
+    font-family:'josefin Sans', sans-serif; 
+    font-size: 60px;
+
+}
+
+.card{
+    align-items: center;
+}
+.fa-camera-retro{
+    font-size: 65px;
+    margin-bottom: 20px;
+   
+}
+
+.fa-camera-retro:hover{
+    font-size: 85px;
+    margin-bottom: 0px;
+   
+}
