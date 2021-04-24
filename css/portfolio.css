@@ -1,0 +1,37 @@
+.text-center {
+    color:#149588;
+
+}
+
+.portfolio{
+    margin-top: 8rem;
+}
+
+.titulo{
+    font-family:'josefin Sans', sans-serif; 
+    font-size: 60px;
+
+}
+
+.imgportfolio { 
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.imgportfolio img{
+    height: 200px;
+    width: 200px; 
+   margin: 10px 0px;
+
+}
+
+.imgportfolio img:hover{
+    border: inset 4px #149588;
+    border-radius: 2%;
+    height: 230px;
+    width: 230px; 
+    transition: 1s;
+}

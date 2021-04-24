@@ -4,7 +4,7 @@
 }
 
 .servicos{
-    margin-top: 9rem;
+    margin-top: 8rem;
 }
 
 .titulo{
@@ -13,16 +13,39 @@
 
 }
 
-.card{
-    align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-    box-shadow: white 5px 5px 5px;
-    color: white;
+.produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
 }
-.fa-camera-retro{
+
+
+.card{
+    
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.575));
+    box-shadow:#686565 5px 5px 5px;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.card:hover{
+    box-shadow:#999b84 8px 8px 8px ;
+    border: 3px solid linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.575));
+    border-radius: 0.5rem;
+    transition: 1s;
+
+    
+}
+
+
+/* .fa-camera-retro{
     font-size: 65px;
     margin-bottom: 20px;
+    margin-top: 20px;
     color: #149588;
    
 }
@@ -30,5 +53,25 @@
 .fa-camera-retro:hover{
     font-size: 85px;
     margin-bottom: 0px;
+    margin-top: 20px;
+} */
+
+
+.icone{
+    font-size: 65px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #149588;
    
 }
+
+.icone:hover{
+    font-size: 85px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.card-text {
+   font-size: 12px;
+}
+
