@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/produtos.css">
     <link href="./css/footer.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a13ac6c9cb.js" crossorigin="anonymous"></script>
 
@@ -28,7 +28,7 @@
             <div class="container-fluid ">
                 <a class="navbar-brand py-0"><img src="./img/logo2.png" alt="imagemlogo"
                         class="d-inline-block align-text-top my-2 loggo"></a>
-                <a href="./index.html">
+                <a href="#">
                     Sobre mim
                 </a>
                 <a href="./portfolio.html">
@@ -37,7 +37,7 @@
                 <a href="./servicos.html">
                     Serviços
                 </a>
-                <a href="#">
+                <a href="./contato.html">
                     Contato
                 </a>
                 <form class="d-flex">
@@ -49,42 +49,84 @@
 
     </header>
 
+
+
     <main>
-        <div class="contato text-center mb-5">
-            <div class="titulo">Contato</div>
+        <div class="books text-center mb-5">
+            <div class="titulo">Books</div>
         </div>
 
-        <div class="container d-flex ">
-            <form>
 
 
+        <div class="d-flex">
 
-                <div class="row inputpadrao mb-5">
-                    <div class="col nome">
-                        <input type="text" class="form-control" placeholder="Nome">
+
+            <div id="carouselExampleIndicators" class="carousel slide ms-5 me-4 mt-5 mb-5" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/material/portfolio/01.jpg" class="d-block w-100" alt="imagembooks">
                     </div>
-                    <div class="col">
-
-                        <input type="text" class=" sobrenome form-control ms-3" placeholder="Sobrenome">
+                    <div class="carousel-item">
+                        <img src="./img/material/portfolio/02.2.jpg" class="d-block w-100" alt="imagembook">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/material/portfolio/01.2.jpg" class="d-block w-100" alt="imagembooks">
                     </div>
                 </div>
-
-                <div class="form-group mb-5">
-                    <label for="exampleFormControlTextarea1"></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensagem" rows="6"></textarea>
-                  </div>
-
-
-
-
-            </form>
-        </div>
-
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            
+            
+            <div class="card ms-5 mt-5">
+                <div class="card-body " >
+                    <h5 class="card-title">Books</h5>
+                    <p class="card-text">Ensaios fotográficos para agências. Totalmente voltado para o mercado de trabalho.
+                        Ideal para modelos e artistas. Você pode escolher 1h, 2h ou 3h de acordo com sua necessidade.</p>
+                        <ul>
+                            <li>
+                                1h até 2 trocas de roupas - Até 25 FOTOS (R$120)
+                            </li>
+                            <li>
+                                2h até 3 trocas de roupas - Até 40 FOTOS (R$180)
+                            </li>
+                            <li>
+                                3h até 4 trocas de roupas - Até 60 FOTOS (R$250)
+                            </li>
+                        </ul>
+                        <div class="btn-group d-flex" role="group" aria-label="Basic example">
+                            <button type="button" class="btn">1h</button>
+                            <button type="button" class="btn ">2h</button>
+                            <button type="button" class="btn ">3h</button>
+                        </div>
+                        <br>
+                        
+                        <a href="#" class="btn mt-4 ">Comprar</a>
+                    </div>
+                </div>
+                
+            </div>
+                
+                
 
 
     </main>
-
     <footer>
         <div class="footer">
             <div class="container">
@@ -108,7 +150,7 @@
                                 <li><a href="./index.html">Sobre mim</a></li>
                                 <li><a href="./portfolio.html">Portfólio</a></li>
                                 <li><a href="./servicos.html">Serviços</a></li>
-                                <li><a href="#">Contato</a></li>
+                                <li><a href="./contato.html">Contato</a></li>
                             </ul>
                         </div>
                     </div>
@@ -134,9 +176,9 @@
                     <div class="col-12">
                         <div class="line"></div>
                         <div class="second2">
-                            <a href="https://github.com/karinapaixao" target="_blank"> <i
+                            <a href="https://github.com/karinapaixao" target="_blank"><i
                                     class="fab fa-github fa-2x margin"></i></a>
-                            <a href="https://www.linkedin.com/in/karinapaixao/" target="_blank"> <i
+                            <a href="https://www.linkedin.com/in/karinapaixao/" target="_blank"><i
                                     class="fab fa-linkedin fa-2x margin"></i></a>
                             <a href="https://www.youtube.com/channel/UC6-toai0mz7Xh6iKbFR0EkQ" target="_blank"><i
                                     class="fab fa-youtube fa-2x margin"></i></a>
@@ -153,3 +195,13 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

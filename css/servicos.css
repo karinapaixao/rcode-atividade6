@@ -1,5 +1,6 @@
 .text-center {
     color:#149588;
+    
 
 }
 
@@ -41,22 +42,6 @@
     
 }
 
-
-/* .fa-camera-retro{
-    font-size: 65px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    color: #149588;
-   
-}
-
-.fa-camera-retro:hover{
-    font-size: 85px;
-    margin-bottom: 0px;
-    margin-top: 20px;
-} */
-
-
 .icone{
     font-size: 65px;
     margin-bottom: 20px;
@@ -73,5 +58,10 @@
 
 .card-text {
    font-size: 12px;
+}
+
+.contratar{
+    align-items: center;
+    justify-content: center;
 }
 

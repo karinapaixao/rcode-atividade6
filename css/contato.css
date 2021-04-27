@@ -1,0 +1,40 @@
+.text-center {
+    color:#149588;
+
+}
+
+.contato{
+    margin-top: 8rem;
+}
+
+.titulo{
+    font-family:'josefin Sans', sans-serif; 
+    font-size: 60px;
+}
+
+
+.padraoinput{
+    font-family:'josefin Sans', sans-serif;
+}
+
+
+.form-control{
+    background: transparent;
+    border-color: white;
+    color: white;
+    width: 200px;
+    
+}
+
+.form-control:hover, .form-control:focus, .form-control:active{
+    box-shadow: none;  
+}
+
+textarea.form-control{
+    width: 450px;
+}
+
+
+
+
+

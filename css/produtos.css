@@ -1,0 +1,76 @@
+.books{
+
+    margin-top: 8rem;
+}
+
+.text-center {
+    color:#149588;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(22, 122, 97), 0 0 5px rgb(236, 236, 255);
+
+}
+
+.titulo{
+    font-family:'josefin Sans', sans-serif; 
+    font-size: 60px;
+}
+
+
+.carousel-item {
+    height: 660px;    
+    width: 600px;
+    
+}
+
+.carousel-item img{
+    height: 660px;    
+    width: 600px;
+border-radius: 3rem;
+}
+
+
+
+.carousel{
+    height: 660px;    
+    width: 600px;
+}
+
+.card-title{
+    color:#149588;
+    font-family:'josefin Sans', sans-serif; 
+    font-size: 42px;
+}
+
+.card-text, li{
+    font-family:'josefin Sans', sans-serif; 
+}
+
+.card{
+    
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.575));
+    box-shadow:#686565 5px 5px 5px;
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+   
+    
+    
+    
+}
+
+.card:hover{
+    box-shadow:#999b84 8px 8px 8px ;
+    border: 3px solid linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.575));
+    border-radius: 0.5rem;
+    transition: 1s;
+
+    
+}
+
+.btn-group{
+align-items: center;
+
+width: 30px;
+
+}

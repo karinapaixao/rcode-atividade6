@@ -22,17 +22,38 @@ nav a:hover{
     color: white;
 }
 
-.form-control {
-    border-color: black;
+
+.inputpesquisar{
+    
     width: 150px ;
+    border: 0.25px solid black;
+    border-radius: 0.25rem;
+    padding: 6px 12px
+    
+}
+
+.inputpesquisar:focus{
+    outline: none;
    
+}
+
+
+.inputpesquisar:hover, .inputpesquisar:focus, .inputpesquisar:active{
+    background: white;
+    box-shadow: none;
+    width: 150px ;
+    border-color: black; 
+    
 }
 
 .btn {
     background-color: #149588;
     color: white;
     border-color: white;
+    font-family:'josefin Sans', sans-serif;
+    font-size: large;
 }
+
 
 .btn:hover{
 color: white;
